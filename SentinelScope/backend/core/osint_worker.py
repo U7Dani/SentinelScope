@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from backend.connectors.hibp_api import check_email
+from connectors.hibp_api import check_email
 
 router = APIRouter()
 
