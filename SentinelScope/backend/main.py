@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.api.routes import api_router
-from backend.db.database import create_db_and_tables
+from api.routes import api_router
+from db.database import create_db_and_tables
 
 app = FastAPI(title="SentinelScope OSINT API")
 
